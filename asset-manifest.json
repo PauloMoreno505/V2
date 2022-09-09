@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/PauloMoreno505/V2.git/static/css/main.b76ece9f.css",
+    "main.js": "/PauloMoreno505/V2.git/static/js/main.1a0de8ab.js",
+    "static/js/787.753f3379.chunk.js": "/PauloMoreno505/V2.git/static/js/787.753f3379.chunk.js",
+    "static/media/John Paulo Moreno CV NEW.pdf": "/PauloMoreno505/V2.git/static/media/John Paulo Moreno CV NEW.91f357f9998bec7a5d0c.pdf",
+    "static/media/newLandingPage.png": "/PauloMoreno505/V2.git/static/media/newLandingPage.79a921ddc5f0adea1989.png",
+    "static/media/viewing.png": "/PauloMoreno505/V2.git/static/media/viewing.fb732910d6eb5636376d.png",
+    "index.html": "/PauloMoreno505/V2.git/index.html",
+    "main.b76ece9f.css.map": "/PauloMoreno505/V2.git/static/css/main.b76ece9f.css.map",
+    "main.1a0de8ab.js.map": "/PauloMoreno505/V2.git/static/js/main.1a0de8ab.js.map",
+    "787.753f3379.chunk.js.map": "/PauloMoreno505/V2.git/static/js/787.753f3379.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b76ece9f.css",
+    "static/js/main.1a0de8ab.js"
+  ]
+}
