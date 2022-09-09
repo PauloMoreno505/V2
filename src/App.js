@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box } from '@mui/material';
+import { Home } from './component/desktopView/DHome';
+import { DSkills } from './component/desktopView/DSkills';
+import { MHome } from './component/mobileView/MHome';
+import { MSkills } from './component/mobileView/MSkills';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Box>
+			<Box sx={{display:{sm:'none', xs:'none', md:'flex', flexDirection:'column'}}}>
+				<Home/>
+				<DSkills/>
+			</Box>
+			<Box sx={{display:{sm:'flex', xs:'flex', md:'none', flexDirection:'column'}}}>
+				<MHome/>
+				<MSkills/>
+			</Box>
+		</Box>
+	);
 }
 
 export default App;
